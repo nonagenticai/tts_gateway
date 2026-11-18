@@ -6,7 +6,7 @@ description = "Pooling TTS gateway: a durable Postgres claim-queue that fans aud
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
-    "fastapi[all]>=0.135.0",
+    "fastapi[all]>=0.163.0",
     "uvicorn[standard]>=0.54.0",
     "psycopg[binary,pool]>=3.3.9",
     "sqlalchemy[asyncio]>=2.1.8",
